@@ -10,7 +10,7 @@ npm i react-icons@^5.0.1
 npm i tailwind-merge@^2.2.1
 npm i zustand@^4.5.0
 
-npmi install next-themes # shadcn 다크모드위한 라이브러리
+npm install next-themes # shadcn 다크모드위한 라이브러리
 ```
 
 #### init
