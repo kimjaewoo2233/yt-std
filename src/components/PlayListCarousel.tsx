@@ -30,10 +30,10 @@ const PlayListCarousel = ({ title, subTitle, Thumbnail, playListArray }: PlayLis
             </div>
           </div>
         </div>
-        <CarouselContent>
+        <CarouselContent className="mt-4">
           {playListArray?.map((playlist, index) => {
             return (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/5">
                 <PlayListCard playlist={playlist} />
               </CarouselItem>
             );
